@@ -1,13 +1,16 @@
 package strategy.pattern;
 
+import strategy.pattern.behavior.impl.BadFlyBehavior;
+import strategy.pattern.behavior.impl.ZaShout;
+
 public class RedDuck extends Duck {
-    @Override
-    public void display() {
-        System.out.println("~~red~~");
+    public RedDuck() {
+        flyBehavior = new BadFlyBehavior();
+        shoutBehavior = new ZaShout();
     }
 
     @Override
-    public void fly() {
-        System.out.println("++can not fly++");
+    public void display() {
+        System.out.println("~~red~~");
     }
 }

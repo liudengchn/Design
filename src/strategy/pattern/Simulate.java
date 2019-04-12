@@ -2,19 +2,22 @@ package strategy.pattern;
 
 public class Simulate {
     public static void main(String[] args) {
-        GreenDuck greenDuck = new GreenDuck();
-        RedDuck redDuck = new RedDuck();
+        Duck duckGreen = new GreenDuck();
+        Duck duckRed = new RedDuck();
+        Duck duckStone = new StoneDuck();
 
-        greenDuck.display();
-        greenDuck.shout();
-        greenDuck.swim();
-        greenDuck.fly();
+        duckGreen.display();
+        duckGreen.shout();
+        duckGreen.fly();
 
-        System.out.println();
+        duckRed.display();
+        duckRed.shout();
+        duckRed.fly();
 
-        redDuck.display();
-        redDuck.shout();
-        redDuck.swim();
-        redDuck.fly();
+        duckStone.display();
+        duckStone.shout();
+        duckStone.fly();
+        duckStone.swim();
+
     }
 }

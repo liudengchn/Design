@@ -7,14 +7,14 @@ public class Simulate {
 
         greenDuck.display();
         greenDuck.shout();
-        greenDuck.swim();
+//        greenDuck.swim();
         greenDuck.fly();
 
         System.out.println();
 
         redDuck.display();
         redDuck.shout();
-        redDuck.swim();
+//        redDuck.swim();
         redDuck.fly();
     }
 }
