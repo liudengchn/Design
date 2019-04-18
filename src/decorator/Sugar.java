@@ -1,4 +1,4 @@
-package decorator.pattern;
+package decorator;
 
 public class Sugar extends Decorator {
     public Sugar(Drink drink) {

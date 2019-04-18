@@ -1,4 +1,4 @@
-package decorator.pattern;
+package decorator;
 
 public class ShortCoffee extends Coffee {
     public ShortCoffee() {

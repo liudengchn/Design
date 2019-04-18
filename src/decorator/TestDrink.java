@@ -1,4 +1,4 @@
-package decorator.pattern;
+package decorator;
 
 public class TestDrink {
     public static void main(String[] args) {

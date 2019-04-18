@@ -1,4 +1,4 @@
-package decorator.pattern;
+package decorator;
 
 public abstract class Drink {
     public String description;
